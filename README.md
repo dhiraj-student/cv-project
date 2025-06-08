@@ -1,20 +1,29 @@
-#HISTOGRAM EQUALIZATION
-This project demonstrates the concept and implementation of Histogram Equalization, a key technique in image processing used to enhance the contrast of images. It is especially useful for images that are either too bright or too dark.
-1.What is histogram equalization?
-Histogram Equalization is a method in image processing that adjusts the contrast of an image by modifying the intensity distribution of the histogram. It works by spreading out the most frequent intensity values to better utilize the available dynamic range of pixel values.
-#FEATURES
-*Read and display grayscale images.
-*Compute and plot original image histogram.
-*Apply histogram equalization algorithm.
-*Display equalized image and its histogram.
-*Compare original and enhanced image visually and statistically.
-#TECHNOLOGIES USED
-*Python 3
-*OpenCV (cv2)
-*Matplotlib (for histogram plotting)
-*NumPy (for pixel manipulation)
+# Histogram Equalization
 
+This project demonstrates the concept and implementation of **Histogram Equalization**, a fundamental technique in image processing used to enhance the contrast of images. It is particularly effective for images that are too bright or too dark.
 
+## What is Histogram Equalization?
 
+Histogram Equalization is a method that improves the contrast of an image by modifying the intensity distribution of the histogram. It redistributes pixel intensity values to span the full dynamic range, thus making features in the image more distinguishable.
 
+## Features
 
+- Read and display grayscale images  
+- Compute and plot the original image histogram  
+- Apply histogram equalization algorithm  
+- Display the equalized image alongside its histogram  
+- Visual and statistical comparison between original and enhanced images  
+
+## Technologies Used
+
+- Python 3  
+- OpenCV (`cv2`)  
+- Matplotlib (for histogram plotting)  
+- NumPy (for pixel manipulation)  
+
+## How to Run
+
+1. Make sure you have Python 3 installed.  
+2. Install required libraries:  
+   ```bash
+   pip install opencv-python matplotlib numpy
